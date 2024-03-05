@@ -7,10 +7,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
     <meta name="generator" content="Hugo 0.108.0" />
     <title>Details</title>
 
@@ -109,19 +105,19 @@
     <main>
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
-          
+
           <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Job Detail</h1>
             <p class="lead text-muted">
                 {{ job.summary }}
             </p>
-            
+
             <img src="{{ job.image.url }}" class="bd-placeholder-img card-img-top"></img>
             <p>
                 <a href="{% url 'home' %}" class="btn btn-primary my-2">Back</a>
               </p>
           </div>
-        </div>   
+        </div>
       </section>
       </div>
     </main>
